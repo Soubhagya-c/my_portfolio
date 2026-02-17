@@ -1,0 +1,82 @@
+.internship {
+  background: #0b1220;
+  padding: 100px 8%;
+  color: white;
+}
+
+.internship-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.internship-card {
+  max-width: 900px;
+  margin: auto;
+  background: #1e293b;
+  padding: 40px;
+  border-radius: 14px;
+  border: 1px solid #334155;
+  transition: 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-6px);
+  border-color: #5eead4;
+}
+
+/* Header */
+.internship-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.internship-header h3 {
+  font-size: 22px;
+}
+
+.internship-type {
+  font-size: 14px;
+  background: #0f172a;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+}
+
+/* Company & Location */
+.internship-company,
+.internship-location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  color: #94a3b8;
+}
+
+.internship-company svg,
+.internship-location svg {
+  color: #5eead4;
+}
+
+/* Bullet Points */
+.internship-points {
+  margin-top: 25px;
+  padding-left: 20px;
+}
+
+.internship-points li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+.internship-points strong {
+  color: #5eead4;
+}
+
+.internship-container {
+  display: grid;
+  gap: 40px;
+}

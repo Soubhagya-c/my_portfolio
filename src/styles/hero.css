@@ -1,0 +1,124 @@
+/* Layout */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #f3f4f6;
+  padding: 30px;
+  border-right: 1px solid #ddd;
+  color: #111827;   /* ✅ ADD THIS */
+}
+
+.sidebar h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;   /* ✅ FORCE DARK COLOR */
+}
+
+.sidebar label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sidebar select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+
+.sidebar-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar-icons a {
+  font-size: 22px;
+  color: #4f46e5;
+  transition: 0.3s;
+}
+
+.sidebar-icons a:hover {
+  color: black;
+}
+
+/* Hero Section */
+.hero {
+  flex: 1;
+  padding: 80px 8%;
+  color: white;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-name {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hero-name span {
+  color: #4f46e5;
+}
+
+.hero-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Image */
+.hero-image img {
+  width: 380px;
+  border-radius: 10px;
+}
+
+/* THEMES */
+.blue .hero {
+  background: #0b1f3a;
+}
+
+.purple .hero {
+  background: #2d1b69;
+}
+
+.green .hero {
+  background: #064e3b;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+}
