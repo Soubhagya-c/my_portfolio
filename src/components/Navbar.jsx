@@ -30,7 +30,7 @@ export default function Navbar() {
     // Find active section based on viewport
     const allSections = [
       "home", "about", "skills", 
-      "academic-education", "courses-training", "certifications",
+      "academic-education", "courses-training", "certification",
       "projects", "contact"
     ];
     

@@ -9,24 +9,9 @@ export default function Hero() {
   return (
     <div className={`layout ${theme}`}>
       
-      {/* LEFT SIDEBAR */}
-      <aside className="sidebar">
-        <h3>Theme Settings</h3>
+    
 
-        <label>Choose Theme</label>
-        <select onChange={(e) => setTheme(e.target.value)}>
-          <option value="blue">Blue</option>
-          <option value="purple">Purple</option>
-          <option value="green">Green</option>
-           <option value="pink">Pink</option>
-        </select>
-
-        <div className="sidebar-icons">
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGithub /></a>
-          <a href="#"><FaEnvelope /></a>
-        </div>
-      </aside>
+    
 
       {/* MAIN HERO SECTION */}
       <section className="hero">
@@ -42,15 +27,16 @@ export default function Hero() {
             </h2>
 
             <p className="hero-text">
-          Java Full Stack Developer skilled in Java, Spring Boot, React.js, and MongoDB with experience building responsive and scalable web applications.
-           Strong knowledge of REST APIs, database design,
-           and frontend-backend integration. Eager to contribute to real-world projects in a dynamic development environment.
+          Java Full Stack Developer with hands-on experience in designing and developing scalable web applications using Java, Spring Boot, React.js, and MongoDB.
+           Skilled in building RESTful APIs, implementing secure authentication, and integrating dynamic frontend interfaces with robust backend services. Experienced in developing responsive UI using Tailwind CSS and Material UI. Strong understanding of microservices architecture, database design, and performance optimization. 
+          Passionate about writing clean, maintainable code and contributing to high-quality production systems.
             </p>
 
             <p className="hero-text">
-              Frontend Developer skilled in React.js, JavaScript, HTML, CSS, and Tailwind CSS, 
-              with experience building responsive and scalable web interfaces.
-               Strong understanding of component-based architecture and API integration.
+              Frontend Developer with expertise in React.js, JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS, specializing in building modern, responsive, and high-performance web interfaces. 
+              Strong understanding of component-based architecture, state management, and API integration.
+               Experienced in converting Figma designs into pixel-perfect UI and optimizing applications for performance and scalability. 
+              Passionate about delivering seamless user experiences.
             </p>
           </div>
 

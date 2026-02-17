@@ -5,7 +5,7 @@ import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 export default function About() {
   return (
     <section className="about">
-      <h2 className="training-title">About Me</h2>
+      <h2 className="about-title">About Me</h2>
       <div className="about-container">
 
         {/* LEFT IMAGE */}

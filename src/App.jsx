@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 
 import "./styles/global.css";
 import Internship from "./components/Internship";
+import SoftSkills from "./components/SoftSkills";
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
         <section id="skills">
           <Skills />
         </section>
+
+        <section id="softskills">
+          <SoftSkills />
+        </section>
+
         <section id="internship">
           <Internship />
         </section>
@@ -35,7 +41,7 @@ function App() {
           <Education />
         </section>
 
-        <section id="certifications">
+        <section id="certification">
           <Certification />
         </section>
 
