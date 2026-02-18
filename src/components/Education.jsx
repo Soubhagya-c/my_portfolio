@@ -1,5 +1,5 @@
 import "../styles/education.css";
-import educationImg from "../assets/education.jpeg"; // add image here
+import educationImg from "../assets/education.jpeg";
 
 export default function Education() {
   return (
@@ -11,11 +11,16 @@ export default function Education() {
         {/* LEFT SIDE - TIMELINE */}
         <div className="timeline">
 
+          {/* MCA */}
           <div className="timeline-item">
             <div className="timeline-year">2023 – 2024</div>
 
             <div className="timeline-content">
-              <h3>MCA in Computer Applications</h3>
+              <div className="degree-header">
+                <h3>MCA in Computer Applications</h3>
+                <span className="cgpa-badge">CGPA: 9.38 / 10</span>
+              </div>
+
               <h4>KLE College of Engineering and Technology, Chikodi</h4>
 
               <p>
@@ -31,16 +36,21 @@ export default function Education() {
             </div>
           </div>
 
+          {/* BSC */}
           <div className="timeline-item">
             <div className="timeline-year">2019 – 2022</div>
 
             <div className="timeline-content">
-              <h3>BSC in Computer Science</h3>
+              <div className="degree-header">
+                <h3>BSC in Computer Science</h3>
+                <span className="cgpa-badge">CGPA: 8.2 / 10</span>
+              </div>
+
               <h4>Karnataka Science Dharwad</h4>
 
               <p>
-                Built strong foundation in Java, Data Structures, and
-                Object-Oriented Programming principles.
+                Built strong foundation in Java, Data Structures,
+                and Object-Oriented Programming principles.
               </p>
 
               <ul>

@@ -69,15 +69,11 @@ export default function Internship() {
 
           <ul className="internship-points">
             <li>
-              Designed and developed a <strong>College Management System</strong>.
+              Designed and developed a <strong>College Management System</strong> and Implemented CRUD operations and backend validations.
             </li>
 
             <li>
               Gained hands-on experience in <strong>Java, JSP, Servlets, and MySQL</strong>.
-            </li>
-
-            <li>
-              Implemented CRUD operations and backend validations.
             </li>
 
             <li>

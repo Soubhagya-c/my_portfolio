@@ -1,0 +1,83 @@
+.languages {
+  padding: 100px 8%;
+  background: linear-gradient(180deg, #0b1220, #0f172a);
+  color: white;
+}
+
+/* HEADER */
+.languages-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 60px;
+}
+
+.languages-header h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.languages-icon {
+  font-size: 30px;
+  color: #60a5fa;
+}
+
+/* GRID */
+.languages-grid {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* CARD */
+.language-card {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: rgba(30, 41, 59, 0.6);
+  padding: 25px 30px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  transition: 0.3s ease;
+}
+
+.language-card:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6;
+  background: rgba(37, 51, 69, 0.8);
+}
+
+/* ICON */
+.language-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(59, 130, 246, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #90caf9;
+}
+
+/* RIGHT CONTENT */
+.language-right h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.language-right p {
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.language-meta {
+  font-size: 12px;
+  color: #64748b;
+  margin-top: 6px;
+  display: inline-block;
+}

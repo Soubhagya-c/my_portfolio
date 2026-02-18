@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import "./styles/global.css";
 import Internship from "./components/Internship";
 import SoftSkills from "./components/SoftSkills";
+import Languages from "./components/Languages";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         <section id="softskills">
           <SoftSkills />
         </section>
-
+        
         <section id="internship">
           <Internship />
         </section>
@@ -47,6 +48,10 @@ function App() {
 
         <section id="projects">
           <Projects />
+        </section>
+
+        <section id="languages">
+          <Languages />
         </section>
 
         <section id="contact">

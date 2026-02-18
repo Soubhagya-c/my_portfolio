@@ -6,10 +6,19 @@ import "../styles/navbar.css";
 const navItems = [
   { id: "home", label: "Home", icon: "🏠" },
   { id: "about", label: "About", icon: "👤" },
-  { id: "skills", label: "Skills", icon: "⚡" },
+  {
+    id: "skills",
+    label: "Skills",
+    icon: "⚡",
+    dropdown: [
+      { id: "technical", label: "Technical Skills" },
+      { id: "softskills", label: "Soft Skills" },
+    ],
+  },
+   { id: "internship", label: "Internship", icon: "💼" },
   { id: "education", label: "Education", icon: "🎓" },
   { id: "certification", label: "Certification", icon: "📜" },
-  { id: "projects", label: "Projects", icon: "💼" },
+  { id: "projects", label: "Projects", icon: "📂" },
   { id: "contact", label: "Contact", icon: "📧" },
 ];
 
@@ -29,8 +38,8 @@ export default function Navbar() {
 
     // Find active section based on viewport
     const allSections = [
-      "home", "about", "skills", 
-      "academic-education", "courses-training", "certification",
+      "home", "about", "skills", "internship experience",
+      "education", "certification",
       "projects", "contact"
     ];
     
