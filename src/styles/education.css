@@ -1,8 +1,22 @@
 .education {
-  background: #0f172a;
+  position: relative;
   padding: 100px 8%;
   color: white;
+
+  /* Background Image */
+  background: 
+    linear-gradient(
+      rgba(15, 23, 42, 0.5),
+      rgba(15, 23, 42, 0.95)
+    ),
+    url("../assets/education.jpeg");
+
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
+
 
 .education-title {
   text-align: center;
@@ -46,12 +60,31 @@
 
 /* Content Card */
 .timeline-content {
-  background: #1e293b;
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(6px);
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 12px;
   flex: 1;
   transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
+
+.cgpa-badge {
+  background: #5eead4;
+  color: #0f172a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.degree-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
 
 .timeline-content h3 {
   font-size: 20px;

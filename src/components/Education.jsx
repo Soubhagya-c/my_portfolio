@@ -1,5 +1,4 @@
 import "../styles/education.css";
-import educationImg from "../assets/education.jpeg";
 
 export default function Education() {
   return (
@@ -38,7 +37,7 @@ export default function Education() {
 
           {/* BSC */}
           <div className="timeline-item">
-            <div className="timeline-year">2019 – 2022</div>
+            <div className="timeline-year">2019 - 2022</div>
 
             <div className="timeline-content">
               <div className="degree-header">
@@ -61,11 +60,6 @@ export default function Education() {
             </div>
           </div>
 
-        </div>
-
-        {/* RIGHT SIDE - IMAGE */}
-        <div className="education-image">
-          <img src={educationImg} alt="Education" />
         </div>
 
       </div>

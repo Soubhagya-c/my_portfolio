@@ -4,15 +4,14 @@ import { motion, AnimatePresence } from "framer-motion";
 import "../styles/navbar.css";
 
 const navItems = [
-  { id: "home", label: "Home", icon: "🏠" },
   { id: "about", label: "About", icon: "👤" },
   {
     id: "skills",
     label: "Skills",
     icon: "⚡",
     dropdown: [
-      { id: "technical", label: "Technical Skills" },
-      { id: "softskills", label: "Soft Skills" },
+      { id: "skills", label: "Technical Skills", path: "skills",  icon: "💻" },
+      { id: "softskills", label: "Soft Skills", path: "softskills", icon: "🧠" },
     ],
   },
    { id: "internship", label: "Internship", icon: "💼" },
@@ -26,7 +25,6 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState("home");
   const [menuOpen, setMenuOpen] = useState(false);
-  const [hoveredItem, setHoveredItem] = useState(null);
   const [openDropdown, setOpenDropdown] = useState(null);
   const [activeDropdownItem, setActiveDropdownItem] = useState(null);
   const dropdownRef = useRef(null);
@@ -38,7 +36,7 @@ export default function Navbar() {
 
     // Find active section based on viewport
     const allSections = [
-      "home", "about", "skills", "internship experience",
+      "home", "about", "skills", "softskills", "internship",
       "education", "certification",
       "projects", "contact"
     ];
@@ -255,7 +253,6 @@ export default function Navbar() {
                         className="dropdown-arrow"
                         animate={{ rotate: openDropdown === item.id ? 180 : 0 }}
                       >
-                        ▼
                       </motion.span>
                     )}
                   </a>
