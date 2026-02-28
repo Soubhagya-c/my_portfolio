@@ -12,7 +12,7 @@ export default function Education() {
 
           {/* MCA */}
           <div className="timeline-item">
-            <div className="timeline-year">2023 – 2024</div>
+            <div className="timeline-year">2023 - 2024</div>
 
             <div className="timeline-content">
               <div className="degree-header">
@@ -42,7 +42,7 @@ export default function Education() {
             <div className="timeline-content">
               <div className="degree-header">
                 <h3>BSC in Computer Science</h3>
-                <span className="cgpa-badge">CGPA: 8.2 / 10</span>
+                <span className="cgpa-badge">Percentage: 84 %</span>
               </div>
 
               <h4>Karnataka Science Dharwad</h4>

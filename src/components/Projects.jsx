@@ -49,6 +49,50 @@ One of the key features of the application is the Crop and Inventory Management 
       <div className="project-section">
 
         <h3 className="project-name">
+          Task Manager Web Application
+        </h3>
+
+        <div className="project-meta">
+          <span>📅 January 2026</span>
+          <span>🏷 Personal Project</span>
+          <span>🌐 Deployed on Vercel</span> {/* Change to Netlify if needed */}
+        </div>
+
+        <p className="project-description">
+          The primary objective of this project was to build a modern, responsive task management system that enables users to create, track, and update tasks in real-time. The application provides a centralized dashboard with key performance metrics, improving task visibility and productivity.
+
+          The system features dynamic task routing, real-time status updates, and automatic dashboard synchronization using React Context API. The architecture follows a scalable component-based design for maintainability and performance.
+        </p>
+
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Developed using <strong>React.js functional components</strong> and Hooks</li>
+          <li>Implemented global state management using <strong>React Context API</strong></li>
+          <li>Built interactive <strong>Dashboard with KPI metrics</strong> (Total, Pending, Completed)</li>
+          <li>Integrated <strong>React Router</strong> with dynamic routing (/tasks/:id)</li>
+          <li>Implemented real-time task status updates with automatic UI re-rendering</li>
+          <li>Designed responsive modern UI with animated progress bars and card layouts</li>
+          <li>Followed component-based architecture for scalable and maintainable structure</li>
+          <li>Deployed application to production using <strong>Vercel</strong></li> {/* Change if Netlify */}
+        </ul>
+
+        <h4>Tech Stack:</h4>
+        <div className="tech-badges">
+          <span>React.js</span>
+          <span>JavaScript (ES6+)</span>
+          <span>React Router</span>
+          <span>Context API</span>
+          <span>CSS3</span>
+          <span>Responsive Design</span>
+          <span>Vercel</span> {/* Change if Netlify */}
+        </div>
+
+      </div>
+
+      {/* ================= PROJECT 3 ================= */}
+      <div className="project-section">
+
+        <h3 className="project-name">
           Hospital Management System
         </h3>
 
@@ -84,7 +128,7 @@ One of the key features of the application is the Crop and Inventory Management 
 
       </div>
 
-          {/* ================= PROJECT 3 ================= */}
+          {/* ================= PROJECT 4 ================= */}
       <div className="project-section">
 
         <h3 className="project-name">

@@ -28,15 +28,26 @@ export default function Internship() {
           <ul className="internship-points">
             <li>
               Developed full-stack applications using <strong>Java, Spring Boot,
-              Hibernate, HTML, CSS, and JavaScript</strong>.
+              Hibernate, and React</strong>.
             </li>
 
             <li>
-              Designed and implemented scalable <strong>RESTful APIs</strong>.
+              Designed and implemented scalable <strong>REST APIs</strong> with proper
+              exception handling and validation.
             </li>
 
             <li>
-              Integrated <strong>MySQL databases</strong> using JDBC and Hibernate.
+              Integrated <strong>MySQL databases</strong> using JDBC and Hibernate with
+              optimized queries and indexing.
+            </li>
+
+            <li>
+              Used <strong>Git</strong> for version control, branching, merging, and
+              collaborative development workflows.
+            </li>
+
+            <li>
+              Worked with <strong>JSON data handling</strong> and frontend-backend integration.
             </li>
 
             <li>
@@ -45,7 +56,8 @@ export default function Internship() {
             </li>
 
             <li>
-              Followed <strong>MVC architecture</strong> and REST standards.
+              Followed <strong>MVC architecture</strong> and REST standards for clean and
+              maintainable code structure.
             </li>
           </ul>
         </div>
@@ -53,7 +65,7 @@ export default function Internship() {
         {/* Internship 2 */}
         <div className="internship-card">
           <div className="internship-header">
-            <h3>Java Full-Stack Intern</h3>
+            <h3>Java Intern</h3>
             <span className="internship-type">45 Days Internship</span>
           </div>
 
@@ -69,15 +81,28 @@ export default function Internship() {
 
           <ul className="internship-points">
             <li>
-              Designed and developed a <strong>College Management System</strong> and Implemented CRUD operations and backend validations.
+              Developed a <strong>College Management System</strong> to manage
+              student records, faculty details, and course data efficiently.
             </li>
 
             <li>
-              Gained hands-on experience in <strong>Java, JSP, Servlets, and MySQL</strong>.
+              Implemented complete <strong>CRUD operations</strong> with server-side
+              validations using <strong>Java, JSP, and Servlets</strong>.
             </li>
 
             <li>
-              Applied full-stack development concepts in real-time project environment.
+              Integrated <strong>MySQL database</strong> with optimized SQL queries and
+              relational schema design.
+            </li>
+
+            <li>
+              Followed <strong>MVC architecture</strong> to maintain clean separation
+              between presentation, business logic, and data layers.
+            </li>
+
+            <li>
+              Used <strong>Git</strong> for version control and collaborated on project
+              modules using structured branching strategy.
             </li>
           </ul>
         </div>
