@@ -1,3 +1,5 @@
+import { Toaster } from "react-hot-toast";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -15,6 +17,7 @@ import Languages from "./components/Languages";
 function App() {
   return (
     <>
+      <Toaster position="top-right" reverseOrder={false} />
       <Navbar />
 
       <main>

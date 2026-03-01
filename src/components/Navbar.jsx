@@ -304,7 +304,7 @@ export default function Navbar() {
 
           {/* Desktop Resume Button */}
           <motion.a
-            href="/resume.pdf"
+            href="/Resume.pdf"
             className="resume-btn"
             download
             whileHover={{ scale: 1.05 }}

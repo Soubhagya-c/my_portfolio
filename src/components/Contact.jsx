@@ -1,3 +1,6 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import toast from "react-hot-toast";
 import "../styles/contact.css";
 import {
   FaMapMarkerAlt,
@@ -8,6 +11,30 @@ import {
 } from "react-icons/fa";
 
 export default function Contact() {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_8pqc1en",
+        "template_7j3n6jk",
+        form.current,
+        "hl5uKiFsh9cmUbskG"
+      )
+      .then(
+        () => {
+          toast.success("Message sent successfully!");
+          form.current.reset();
+        },
+        () => {
+          toast.error("Failed to send message. Please try again.");
+        }
+      );
+  };
+
   return (
     <section className="contact">
       <h2 className="contact-heading">Contact Me</h2>
@@ -18,20 +45,20 @@ export default function Contact() {
         <div className="contact-form">
           <h3>Send me a message</h3>
 
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="form-group">
               <label>Name <span>*</span></label>
-              <input type="text" placeholder="Your name" required />
+              <input type="text" name="name" placeholder="Your name" required />
             </div>
 
             <div className="form-group">
               <label>Email <span>*</span></label>
-              <input type="email" placeholder="Your email" required />
+              <input type="email" name="email" placeholder="Your email" required />
             </div>
 
             <div className="form-group">
               <label>Message <span>*</span></label>
-              <textarea placeholder="Your message" rows="5" required></textarea>
+              <textarea name="message" placeholder="Your message" rows="5" required />
             </div>
 
             <button type="submit" className="send-btn">
@@ -71,11 +98,11 @@ export default function Contact() {
           <h4 className="connect-title">Connect With Me</h4>
 
           <div className="connect-buttons">
-            <a href="#" className="linkedin">
+            <a href="https://www.linkedin.com/in/soubhagya09/" className="linkedin">
               <FaLinkedin /> LinkedIn
             </a>
 
-            <a href="#" className="github">
+            <a href="https://github.com/Soubhagya-c" className="github">
               <FaGithub /> GitHub
             </a>
 
